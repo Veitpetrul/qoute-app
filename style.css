@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif; /* Setzt die Schriftart für die gesamte Seite */
+  display: flex; /* Verwendet Flexbox für das Layout */
+  flex-direction: column; /* Ordnet die Flexbox-Elemente vertikal an */
+  align-items: center; /* Zentriert die Flexbox-Elemente horizontal */
+  justify-content: center; /* Zentriert die Flexbox-Elemente vertikal */
+  height: 100vh; /* Setzt die Höhe des Body-Elements auf die volle Höhe des Viewports */
+  margin: 0; /* Entfernt den Standard-Außenabstand des Body-Elements */
+  background-color: #f0f0f0; /* Setzt die Hintergrundfarbe des Body-Elements */
+}
+
+#quote {
+  font-size: 1.5em; /* Setzt die Schriftgröße des Zitat-Textes */
+  margin: 20px; /* Fügt Außenabstand um das Zitat hinzu */
+  text-align: center; /* Zentriert den Text im Zitat */
+}
+
+button {
+  padding: 10px 20px; /* Fügt Innenabstand zum Button hinzu */
+  font-size: 1em; /* Setzt die Schriftgröße des Buttons */
+  cursor: pointer; /* Ändert den Mauszeiger beim Überfahren des Buttons */
+  background-color: #007bff; /* Setzt die Hintergrundfarbe des Buttons */
+  color: white; /* Setzt die Schriftfarbe des Buttons */
+  border: none; /* Entfernt die Standardrahmen des Buttons */
+  border-radius: 5px; /* Macht die Ecken des Buttons abgerundet */
+}
+
+button:hover {
+  background-color: #0056b3; /* Ändert die Hintergrundfarbe des Buttons beim Überfahren mit der Maus */
+}
